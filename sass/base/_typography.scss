@@ -6,6 +6,9 @@ $heading-font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif
 $header-title-font-family: $heading-font-family !default;
 $header-subtitle-font-family: $heading-font-family !default;
 
+$japanese :"Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Meiryo", "メイリオ", "Osaka", "MS PGothic", arial, helvetica, sans-serif;
+
+
 // Fonts
 .heading {
   font-family: $heading-font-family;
@@ -13,6 +16,7 @@ $header-subtitle-font-family: $heading-font-family !default;
 .sans { font-family: $sans; }
 .serif { font-family: $serif; }
 .mono { font-family: $mono; }
+.japanesefont { font-family: $japanese; }
 
 body > header h1 {
   font-size: 2.2em;
@@ -29,7 +33,7 @@ body > header h2 {
 body {
   line-height: 1.5em;
   color: $text-color;
-  @extend .serif;
+  @extend .japanesefont;
 }
 h1 {
   font-size: 2.2em;
