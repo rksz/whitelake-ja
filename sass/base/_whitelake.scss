@@ -4,7 +4,7 @@ color: #292f33 !important;
 
 /** ANFANG HEADER **/
 html {
- background: #d4d2d2 image-url("line-tile.png") top left !important;
+ background: #ffffff;
 }
 
 body > header, .blog-index {
@@ -57,7 +57,7 @@ background: #ebebeb !important;
 color: #21759b !important;
 }
 article {
-border-bottom: 1px dotted #21759b  !important;
+border-bottom: 1px solid #e0e0e0  !important;
 }
 
 .hentry, article[role="article"] {
@@ -97,7 +97,7 @@ color: #21759b !important;
 body > nav {
 background: none !important;
 background-color: white !important;
-border-bottom: 1px solid #21759b !important;
+border-bottom: 1px solid #e0e0e0 !important;
 border-top: none !important;
 }
 
