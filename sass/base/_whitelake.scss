@@ -1,5 +1,5 @@
 h1,h2,h3,h4,em {
-color: #21759b !important;
+color: #292f33 !important;
 }
 
 /** ANFANG HEADER **/
@@ -65,12 +65,14 @@ border-bottom: none !important;
 }
 
 .entry-title{
-color: #21759b !important;
+color: #F3F2EE !important;
+background: #1863a1;
 font-size: 1.5em !important;
+padding: 8px;
 }
 
 .hentry header, article[role="article"] header {
-border-bottom: 1px dotted #21759b !important;
+/* border-bottom: 1px dotted #21759b !important; */
 }
 
 article header {

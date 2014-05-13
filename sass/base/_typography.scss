@@ -48,7 +48,7 @@ h1 {
 #{headings()}{
   @extend .heading;
   text-rendering: optimizelegibility;
-  margin-bottom: 1em;
+  margin-bottom: 0.6667em;
   font-weight: bold;
 }
 h2, section h1 {
